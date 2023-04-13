@@ -33,3 +33,38 @@
 .radio-info .radio-frequency{
     display: block;
 }
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #ff0216;
+}
+
+.navbar .wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20%;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar .underline::after{
+    content: "";
+    height: 1px;
+    width: 0;
+    background-color: #fff;
+    display: block;
+    transition: all 300ms
+}
+
+.navbar .underline:hover::after{
+    width: 100%;
+    transition: 0.3s;
+}
