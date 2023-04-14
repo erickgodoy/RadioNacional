@@ -98,15 +98,59 @@
     padding: 0 10px 0 0;
 }
 
-.title-section .text::before{
+.most-read .title-section .text::before{
     content: "Lo más leido";
+}
+
+.social-networks .title-section .text::before{
+    content: "Síguenos en redes sociales";
 }
 
 
 .title-section .text::after{
     content: "";
     height: 4px;
-    width: 45%;
+    width: 48px;
     background-color:#ff0216;
     display: block;
+}
+
+.most-read .info{
+    margin: 20px 0;
+}
+
+.most-read .info .title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.most-read .info .title .underline{
+    text-decoration: none;
+    background-image: linear-gradient(#161616, #161616);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 0% 1px;
+    transition: background-size 0.3s ease-in-out;
+    color: #161616;
+}
+
+.most-read .info .title .underline:hover{
+    background-size: 100% 1px;
+    color: inherit;
+}
+
+.most-read .info .date{
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    color: #9c9c9c;
+    padding: 1px 0 0 0;
+}
+
+.most-read .info .abstract{
+    font-size: 16px;
+    display: block;
+    color: #161616BF;
+    padding: 1px 0 0 0;
 }
