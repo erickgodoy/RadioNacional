@@ -106,7 +106,6 @@
     content: "Síguenos en redes sociales";
 }
 
-
 .title-section .text::after{
     content: "";
     height: 4px;
@@ -154,3 +153,84 @@
     color: #161616BF;
     padding: 1px 0 0 0;
 }
+
+/* SOCIAL NETWORKS */
+.media-module{
+    display: grid;
+    gap: 10px 20px;
+}
+
+.media-module a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    height: 43px;
+    line-height: 43px;
+}
+
+.media-module a .ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 43px;
+    border-right: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.media-module a .red{
+    color: #fff !important;
+    width: 100px; 
+    margin-right: 15px;
+}
+
+.media-module a.fb{
+    background: #1a6dd5;
+}
+
+.media-module a.fb .ico{
+    background: #1864c4;
+}
+
+.media-module a.tw{
+    background: #57acef;
+}
+
+.media-module a.tw .ico{
+    background: #51a1de;
+}
+
+.media-module a.yt{
+    background: #fe0000;
+}
+
+.media-module a.yt .ico{
+    background: #ec0000;
+}
+
+.media-module a.tk{
+    background: #fe2b54;
+}
+
+.media-module a.tk .ico{
+    background: #ed2951;
+}
+
+.media-module a.ig{
+    background: #0088ce;
+}
+
+.media-module a.ig .ico{
+    background: #017ec0;
+}
+
+.media-module a.gn{
+    background: #1a6dd5;
+}
+
+.media-module a.gn .ico{
+    background: #1864c4;
+}
+
