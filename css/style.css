@@ -409,3 +409,13 @@ body{
     font-weight: 700;
     padding: 20px 0 0;
 }
+
+
+/* WHATSAPP BUTTON */
+.whatsapp-button{
+    position: fixed;
+    right: 0.5em;
+    bottom: 0.5em;
+    width: 60px;
+    z-index: 1;
+}
