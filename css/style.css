@@ -392,3 +392,20 @@ body{
     font-weight: 700;
     margin-top: 20px;
 }
+
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    display: block;
+    background: #161c1e;
+    padding: 30px 0;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 17px;
+    color: #ced1d6;
+    font-weight: 700;
+    padding: 20px 0 0;
+}
